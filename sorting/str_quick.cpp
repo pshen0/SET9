@@ -1,5 +1,5 @@
 #include "sorts.h"
-#include "../comparator.h"
+#include "../environment/comparator.h"
 
 void strQuickSort(std::vector<std::string>& arr, int l, int  r, int d, CharCompareCounter& cmp) {
     if (l >= r) return;

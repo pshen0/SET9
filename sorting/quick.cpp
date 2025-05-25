@@ -1,5 +1,5 @@
 #include "sorts.h"
-#include "../comparator.h"
+#include "../environment/comparator.h"
 
 int partition(std::vector<std::string>& arr, int low, int high, CharCompareCounter& cmp) {
     std::string pivot = arr[high];

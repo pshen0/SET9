@@ -1,5 +1,5 @@
 #include "sorts.h"
-#include "../comparator.h"
+#include "../environment/comparator.h"
 
 void radixSort(std::vector<std::string> &arr, int l, int r, int d, std::vector<std::string> &aux, CharCompareCounter& cmp) {
     if (r <= l) return;

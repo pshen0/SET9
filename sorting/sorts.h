@@ -3,7 +3,7 @@
 
 #include <vector>
 #include <string>
-#include "../comparator.h"
+#include "../environment/comparator.h"
 
 void mergeSort(std::vector<std::string>& arr, int left, int right, CharCompareCounter& cmp);
 

@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 include_directories(
     ${PROJECT_SOURCE_DIR}
     ${PROJECT_SOURCE_DIR}/sorting
+    ${PROJECT_SOURCE_DIR}/environment
 )
 
 set(SORTING_SOURCES
@@ -19,7 +20,7 @@ set(SORTING_SOURCES
 )
 
 set(SOURCES
-    main.cpp
+    environment/main.cpp
     ${SORTING_SOURCES}
 )
 

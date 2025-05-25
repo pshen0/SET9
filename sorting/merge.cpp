@@ -1,5 +1,5 @@
 #include "sorts.h"
-#include "../comparator.h"
+#include "../environment/comparator.h"
 
 void merge(std::vector<std::string>& arr, int left, int mid, int right, CharCompareCounter& cmp) {
     std::vector<std::string> leftPart(arr.begin() + left, arr.begin() + mid + 1);

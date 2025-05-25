@@ -1,5 +1,5 @@
 #include "sorts.h"
-#include "../comparator.h"
+#include "../environment/comparator.h"
 
 bool cmpLess(const std::string& s, const std::string& t, CharCompareCounter& cmp) {
     return cmp.less(s, t);
