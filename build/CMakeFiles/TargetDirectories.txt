@@ -1,0 +1,3 @@
+/Users/anya_psheno/Desktop/set9/build/CMakeFiles/StringSorts.dir
+/Users/anya_psheno/Desktop/set9/build/CMakeFiles/edit_cache.dir
+/Users/anya_psheno/Desktop/set9/build/CMakeFiles/rebuild_cache.dir
