@@ -903,4 +903,4 @@ CMakeFiles/StringSorts.dir/sorting/quick.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/anya_psheno/Desktop/set9/sorting/../comparator.h
+  /Users/anya_psheno/Desktop/set9/sorting/../environment/comparator.h

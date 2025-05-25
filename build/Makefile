@@ -129,29 +129,29 @@ StringSorts/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringSorts.dir/build.make CMakeFiles/StringSorts.dir/build
 .PHONY : StringSorts/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+environment/main.o: environment/main.cpp.o
+.PHONY : environment/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringSorts.dir/build.make CMakeFiles/StringSorts.dir/main.cpp.o
-.PHONY : main.cpp.o
+environment/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringSorts.dir/build.make CMakeFiles/StringSorts.dir/environment/main.cpp.o
+.PHONY : environment/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+environment/main.i: environment/main.cpp.i
+.PHONY : environment/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringSorts.dir/build.make CMakeFiles/StringSorts.dir/main.cpp.i
-.PHONY : main.cpp.i
+environment/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringSorts.dir/build.make CMakeFiles/StringSorts.dir/environment/main.cpp.i
+.PHONY : environment/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+environment/main.s: environment/main.cpp.s
+.PHONY : environment/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringSorts.dir/build.make CMakeFiles/StringSorts.dir/main.cpp.s
-.PHONY : main.cpp.s
+environment/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StringSorts.dir/build.make CMakeFiles/StringSorts.dir/environment/main.cpp.s
+.PHONY : environment/main.cpp.s
 
 sorting/merge.o: sorting/merge.cpp.o
 .PHONY : sorting/merge.o
@@ -306,9 +306,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... StringSorts"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... environment/main.o"
+	@echo "... environment/main.i"
+	@echo "... environment/main.s"
 	@echo "... sorting/merge.o"
 	@echo "... sorting/merge.i"
 	@echo "... sorting/merge.s"

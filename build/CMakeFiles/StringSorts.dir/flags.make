@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/anya_psheno/Desktop/set9 -I/Users/anya_psheno/Desktop/set9/sorting
+CXX_INCLUDES = -I/Users/anya_psheno/Desktop/set9 -I/Users/anya_psheno/Desktop/set9/sorting -I/Users/anya_psheno/Desktop/set9/environment
 
 CXX_FLAGSx86_64 = -std=gnu++17 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -mmacosx-version-min=14.5
 

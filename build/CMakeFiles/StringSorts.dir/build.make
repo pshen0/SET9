@@ -72,19 +72,19 @@ include CMakeFiles/StringSorts.dir/flags.make
 CMakeFiles/StringSorts.dir/codegen:
 .PHONY : CMakeFiles/StringSorts.dir/codegen
 
-CMakeFiles/StringSorts.dir/main.cpp.o: CMakeFiles/StringSorts.dir/flags.make
-CMakeFiles/StringSorts.dir/main.cpp.o: /Users/anya_psheno/Desktop/set9/main.cpp
-CMakeFiles/StringSorts.dir/main.cpp.o: CMakeFiles/StringSorts.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anya_psheno/Desktop/set9/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/StringSorts.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StringSorts.dir/main.cpp.o -MF CMakeFiles/StringSorts.dir/main.cpp.o.d -o CMakeFiles/StringSorts.dir/main.cpp.o -c /Users/anya_psheno/Desktop/set9/main.cpp
+CMakeFiles/StringSorts.dir/environment/main.cpp.o: CMakeFiles/StringSorts.dir/flags.make
+CMakeFiles/StringSorts.dir/environment/main.cpp.o: /Users/anya_psheno/Desktop/set9/environment/main.cpp
+CMakeFiles/StringSorts.dir/environment/main.cpp.o: CMakeFiles/StringSorts.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/anya_psheno/Desktop/set9/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/StringSorts.dir/environment/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StringSorts.dir/environment/main.cpp.o -MF CMakeFiles/StringSorts.dir/environment/main.cpp.o.d -o CMakeFiles/StringSorts.dir/environment/main.cpp.o -c /Users/anya_psheno/Desktop/set9/environment/main.cpp
 
-CMakeFiles/StringSorts.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StringSorts.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anya_psheno/Desktop/set9/main.cpp > CMakeFiles/StringSorts.dir/main.cpp.i
+CMakeFiles/StringSorts.dir/environment/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StringSorts.dir/environment/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anya_psheno/Desktop/set9/environment/main.cpp > CMakeFiles/StringSorts.dir/environment/main.cpp.i
 
-CMakeFiles/StringSorts.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StringSorts.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anya_psheno/Desktop/set9/main.cpp -o CMakeFiles/StringSorts.dir/main.cpp.s
+CMakeFiles/StringSorts.dir/environment/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StringSorts.dir/environment/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anya_psheno/Desktop/set9/environment/main.cpp -o CMakeFiles/StringSorts.dir/environment/main.cpp.s
 
 CMakeFiles/StringSorts.dir/sorting/merge.cpp.o: CMakeFiles/StringSorts.dir/flags.make
 CMakeFiles/StringSorts.dir/sorting/merge.cpp.o: /Users/anya_psheno/Desktop/set9/sorting/merge.cpp
@@ -172,7 +172,7 @@ CMakeFiles/StringSorts.dir/sorting/str_quick.cpp.s: cmake_force
 
 # Object files for target StringSorts
 StringSorts_OBJECTS = \
-"CMakeFiles/StringSorts.dir/main.cpp.o" \
+"CMakeFiles/StringSorts.dir/environment/main.cpp.o" \
 "CMakeFiles/StringSorts.dir/sorting/merge.cpp.o" \
 "CMakeFiles/StringSorts.dir/sorting/quick_radix.cpp.o" \
 "CMakeFiles/StringSorts.dir/sorting/quick.cpp.o" \
@@ -183,7 +183,7 @@ StringSorts_OBJECTS = \
 # External object files for target StringSorts
 StringSorts_EXTERNAL_OBJECTS =
 
-StringSorts: CMakeFiles/StringSorts.dir/main.cpp.o
+StringSorts: CMakeFiles/StringSorts.dir/environment/main.cpp.o
 StringSorts: CMakeFiles/StringSorts.dir/sorting/merge.cpp.o
 StringSorts: CMakeFiles/StringSorts.dir/sorting/quick_radix.cpp.o
 StringSorts: CMakeFiles/StringSorts.dir/sorting/quick.cpp.o

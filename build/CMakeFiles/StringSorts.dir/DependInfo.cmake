@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/anya_psheno/Desktop/set9/main.cpp" "CMakeFiles/StringSorts.dir/main.cpp.o" "gcc" "CMakeFiles/StringSorts.dir/main.cpp.o.d"
+  "/Users/anya_psheno/Desktop/set9/environment/main.cpp" "CMakeFiles/StringSorts.dir/environment/main.cpp.o" "gcc" "CMakeFiles/StringSorts.dir/environment/main.cpp.o.d"
   "/Users/anya_psheno/Desktop/set9/sorting/merge.cpp" "CMakeFiles/StringSorts.dir/sorting/merge.cpp.o" "gcc" "CMakeFiles/StringSorts.dir/sorting/merge.cpp.o.d"
   "/Users/anya_psheno/Desktop/set9/sorting/quick.cpp" "CMakeFiles/StringSorts.dir/sorting/quick.cpp.o" "gcc" "CMakeFiles/StringSorts.dir/sorting/quick.cpp.o.d"
   "/Users/anya_psheno/Desktop/set9/sorting/quick_radix.cpp" "CMakeFiles/StringSorts.dir/sorting/quick_radix.cpp.o" "gcc" "CMakeFiles/StringSorts.dir/sorting/quick_radix.cpp.o.d"

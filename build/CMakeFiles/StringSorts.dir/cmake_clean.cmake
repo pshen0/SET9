@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/StringSorts.dir/main.cpp.o"
-  "CMakeFiles/StringSorts.dir/main.cpp.o.d"
+  "CMakeFiles/StringSorts.dir/environment/main.cpp.o"
+  "CMakeFiles/StringSorts.dir/environment/main.cpp.o.d"
   "CMakeFiles/StringSorts.dir/sorting/merge.cpp.o"
   "CMakeFiles/StringSorts.dir/sorting/merge.cpp.o.d"
   "CMakeFiles/StringSorts.dir/sorting/quick.cpp.o"
